@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+div#tarefas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.25rem;
+}
+
+
+.tarefaDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    align-items: baseline;
+}
+
+img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.container {
+    height: 100%;
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+
+.up {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.elements {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.up>input {
+    border: none;
+    background: #ededed;
+    padding: 10px;
+    font-size: 1rem;
+    outline: 0;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 0px 2px black;
+    text-shadow: 0px 0px 2px black;
+}
+
+.up>button {
+    box-shadow: 0px 0px 2px black;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+span.tarefaName {
+    font-size: 1.3rem;
+}
+
+.tarefaDiv>button {
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
