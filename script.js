@@ -106,7 +106,7 @@ inputTarefa.addEventListener("blur", function (x) {
 inputTarefa.onkeypress = function (e) {
   var chr = String.fromCharCode(e.which);
   if (
-    "1234567890qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM".indexOf(
+    " 1234567890qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM".indexOf(
       chr
     ) < 0
   )
